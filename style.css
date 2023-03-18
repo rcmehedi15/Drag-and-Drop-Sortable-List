@@ -1,0 +1,55 @@
+body {
+  background-color: #ccc;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.shadow {
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#sortable-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#sortable-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+}
+
+#sortable-list li i {
+  margin-right: 10px;
+}
+
+#sortable-list li .drag-handle {
+  cursor: move;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.left-image {
+  width: 50px;
+}
+
+.img-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
